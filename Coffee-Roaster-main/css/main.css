@@ -1,0 +1,254 @@
+body{
+    background-color: #F2F2F2;
+}
+.container{
+    width: 1300px;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+}
+header{
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+.about-html-1{
+    text-decoration: none;
+    color: #83888F;
+    border-bottom: 3px solid #000;
+}
+.home-page-1{
+    text-decoration: none;
+    color: #83888F;
+}
+.home-page-1:active{
+    border-bottom: 3px solid;
+}
+.your-plan-1{
+    text-decoration: none;
+    color: #83888F;
+}
+.your-plan-1:active{
+    color: #000;
+}
+.create-your-plan{
+    text-decoration: none;
+}
+.home-2{
+    text-decoration: none;
+    color: #83888F; 
+}
+.about-us{
+    text-decoration: none;
+    color: #83888F; 
+}
+.coffee-logo{
+    align-items: center;
+    padding-top: 10px;
+    cursor: pointer;
+}
+.nav-list{
+    display: flex;
+    align-items: center;
+}
+.list-item-1{
+    list-style: none;
+    margin-right: 40px;
+    cursor: pointer;
+}
+.list-item-2{
+    list-style: none;
+    margin-right: 40px;
+    cursor: pointer;
+    border-bottom: #000;
+}
+.list-item-2:active{
+    border-bottom: 3px solid;
+}
+.list-item-3{
+    list-style: none;
+    margin-right: 40px;
+    cursor: pointer;
+}
+.list-item-3:active{
+    border-bottom: 3px solid;
+}
+.section1{
+    width: 1200px;
+    height: 450px;
+    margin: 0 auto;
+    border-radius: 8px;
+    color: #ffffff;
+    background-image: url(../images/Bitmap\ \(1\).svg);
+    padding-left: 100px;
+    padding-top: 100px;
+    box-sizing: border-box;
+}
+.section1-title{
+    font-family: 'Fraunces 9pt';
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 48px;
+}
+.section2{
+    width: 1050px;
+    height: 550px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 150px;
+}
+.section2-img{
+    flex: 1;
+}
+.section2-paragraph{
+    flex: 1;
+    padding-left: 30px;
+    padding-top: 25px;
+}
+.section2-title{
+    font-family: 'Fraunces 9pt';
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 48px;
+color: rgba(51, 61, 75, 1);
+}
+.section1-p{
+    line-height: 9px;
+    font-size: 12px;
+    font-weight: 400;
+}
+.section3{
+    width: 1200px;
+    height: 480px;
+    background-color: rgb(13, 6, 24);
+    display: flex;
+    margin: 0 auto;
+    margin-top: 150px;
+    border-radius: 10px;
+}
+.section3-definition{
+    flex: 1;
+    margin-top: 80px;
+    margin-left: 80px;
+}
+.section3-title{
+    font-family: 'Fraunces 9pt';
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 48px;
+color: #FEFCF7;
+}
+.section3-img{
+    flex: 1;
+}
+.section3-paragraph{
+    font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 15px;
+color: #FEFCF7;
+}
+.section4{
+    width: 1050px;
+    height: 450px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.section4-title{
+    font-family: 'Fraunces 9pt';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 32px;
+color: rgba(131, 136, 143, 1);
+}
+.section4-list{
+    display: flex;
+    justify-content: space-between;
+}
+.section4-item{
+    list-style: none;
+    margin-top: 50px;
+}
+.section4-h3{
+    font-size: 35px;
+    color: rgb(8, 7, 8);
+    font-weight: 900;
+}
+.footer-2{
+    width: 1200px;
+    height: 70px;
+    border: rgba(44, 52, 62, 1);
+    background-color: rgba(44, 52, 62, 1);
+    display: flex;
+    margin: 0 auto;
+    margin-top: 150px;
+    align-items: center;
+    box-sizing: border-box;
+}
+.footer-list-2{
+    display: flex;
+    margin-right: 130px;
+    flex: 2;
+}
+.footer-img-2{
+    display: flex;
+    margin-left: 110px;
+    flex: 2;
+}
+.coffee-bean{
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+.coffee-3{
+    width: 203px;
+    height: 24px;
+    cursor: pointer;
+}
+.footer-item-2{
+    list-style: none;
+    margin-right: 30px;
+    font-size: smaller;
+    cursor: pointer;
+}
+.home-page-2{
+    color: #83888F;
+    text-decoration: none;
+}
+.home-page-2:hover{
+    color: #FEFCF7;
+}
+.plan-html-2{
+    color: #83888F;
+    text-decoration: none;
+}
+.plan-html-2:hover{
+    color: #FEFCF7;
+}
+.about-us-2{
+    color: #83888F;
+    text-decoration: none;
+}
+.about-us-2:hover{
+    color: #FEFCF7;
+}
+.social-media-2{
+    display: flex;
+    margin-left: 100px;
+    flex: 1;
+}
+.media-2{
+    list-style: none;
+    padding-right: 10px;
+    cursor: pointer;
+}
